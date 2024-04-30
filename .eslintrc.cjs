@@ -17,6 +17,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react-hooks/rules-of-hooks": 'error',
-    "react-hooks/exhaustive-deps": 'warn' // <--- THIS IS THE NEW RULE
+    "react-hooks/exhaustive-deps": 'warn', // <--- THIS IS THE NEW RULE
+    "no-extra-boolean-cast": 0
   },
 }
